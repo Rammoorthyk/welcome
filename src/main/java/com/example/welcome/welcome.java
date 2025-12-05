@@ -1,4 +1,4 @@
-package com.example.expensetracker;
+package com.example.welcome;
 
 
 
@@ -9,10 +9,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-public class ExpenseTracker1Application {
+public class welcome {
 
     public static void main(String[] args) {
-        SpringApplication.run(ExpenseTracker1Application.class, args);
+        SpringApplication.run(welcome.class, args);
     }
 
 @GetMapping
